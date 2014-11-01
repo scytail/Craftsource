@@ -1,0 +1,33 @@
+1.Create an Enterprise Installer (installer > Enterprise >Create Project
+
+2.Product Details
+Product Name: Craftbook
+Version: minecraft release version
+Company Name: Suturesoft
+=========================================
+Product URL: http://www.suturesoft.com/projects#craftbook
+Update URL: http://www.suturesoft.com/projects#craftbook
+Tech Support URL: http://www.suturesoft.com/contact
+Contact: support@suturesoft.com
+=========================================
+Ctrl Panel Icon: Craftbook icon (icon.ico)
+check: -disable modify -disable repair
+
+3.Files and Folders
+Application Folder: drop all files needed to run executable here
+right-click exe: new stortcut to...>installed file
+hit OK
+Select Desktop
+right-click in file browser for desktop: newshortcut to...>installed file
+Select exe
+hit ok; hit ok
+
+4.Dialogs
+select exit dialog
+check "show 'view readme' option"
+select readme.txt
+check "checked by default"
+
+5.Build (F7)
+
+6.MSI located in "Craftbook-SetupFiles"

@@ -1,0 +1,10 @@
+1) put craftbook.py, data.xml, and icon.ico (the application icon) in the pyinstaller folder
+2)open command prompt and do the following commands (CASE SENSITIVE!):
+
+    cd Desktop\pyinstaller
+
+    python pyinstaller.py -mdata.xml -F -w -iicon.ico --hidden-import=xml.etree.ElementTree.parse --hidden-import=Tkinter --hidden-import=urllib.openurl -nCraftsource craftsource_stable.py
+
+program is located in <pyinstaller\Craftsource\dist> folder. note that data.xml and icon.ico and readme MUST be added manually to the program in the same directory!
+
+**add -d to the command for debug services**

@@ -1,0 +1,16 @@
+def itemDisp(self):
+        itemWindow = Toplevel()
+        itemWindow.title(string="All Items")
+        itemWindow.resizable(False, False)
+
+        imageFrame = Frame(itemWindow)
+
+        imageFrame.pack()
+
+        imageFileName = "DataValues.gif"
+        imageObject = PhotoImage(file=imageFileName)
+        resizedImage = imageObject.subsample(1,1)
+        label = Label(imageFrame,image=resizedImage)
+        label.pack()
+
+        root.mainloop()

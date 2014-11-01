@@ -1,0 +1,28 @@
+<!--
+Data for Craftsource. Do not alter in any way.
+Last Edited: 11/16/12
+Built for: Minecraft 1.4.4
+-->
+<assembly>
+    <item>
+		<id>999</id>
+		<name>test2</name>
+		<alt>test</alt><!--This is another ID for it-->
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Banhammer</tool>
+		<durability>9001</durability>
+		<obtainability>MAGICMod-Survival</obtainability>
+		<location>Commonly between layers 0-128, ideally 50</location>
+		<stack>64</stack>
+		<physics>Partially</physics>
+		<other>MAGICMod: Un-diggable, can be picked up with bowl, starts apocalypse</other>
+	</item>
+    <command>
+        <name>/lolrofl[amount][:player:]</name>
+        <description>MAGICMod: insta-gibs specified noob specified number of times</description>
+    </command>
+</assembly>

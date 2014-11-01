@@ -1,0 +1,5897 @@
+<!--
+Data for Craftbook. Do not alter in any way.
+Last Edited:10/31/12
+Built for:Minecraft 1.4.0
+-->
+<assembly>
+	
+	<!--BLOCKS-->
+	
+	<item>
+		<id>1</id>
+		<name>stone</name>
+		<alt>smooth stone</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>cobblestone</smelt>
+		<tool>Pickaxe</tool>
+		<durability>30</durability>
+		<obtainability>Survival: Smelt</obtainability>
+		<location>More frequent under dirt level</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can be obtained by smelting Cobblestone in a Furnace</other>
+	</item>
+	<item>
+		<id>2</id>
+		<name>grass block</name>
+		<alt>gras block</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Shovel</tool>
+		<durability>3</durability>
+		<obtainability>Survival: Silk Touch</obtainability>
+		<location>On surface</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Grass spreads to nearby Dirt blocks when above light level 9 and not covered</other>
+	</item>
+	<item>
+		<id>3</id>
+		<name>dirt</name>
+		<alt>soil, drt, filth</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Shovel</tool>
+		<durability>2.5</durability>
+		<obtainability>Survival</obtainability>
+		<location>Under grass level</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Acquired when grass/dirt dug</other>
+	</item>
+	<item>
+		<id>4</id>
+		<name>cobblestone</name>
+		<alt>cobble</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Pickaxe</tool>
+		<durability>30</durability>
+		<obtainability>Survival</obtainability>
+		<location>In dungeons, jungle temples, villages, and strongholds</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Acquired when stone/cobblestone dug</other>
+	</item>
+	<item>
+		<id>5</id>
+		<name>planks</name>
+		<alt>wooden planks, plank</alt>
+		<craftT> | | </craftT>
+		<craftM> |W| </craftM>
+		<craftB> | | </craftB>
+		<key>W=wood</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>15</durability>
+		<obtainability>Survival</obtainability>
+		<location>Mineshafts, villages</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can be used as fuel (15 seconds), color varies with color of wood: oak yields tan/ birch yields white/ pine yields brown/ jungle yields pink</other>
+	</item>
+	<item>
+		<id>6</id>
+		<name>sapling</name>
+		<alt>sprout</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>0</durability>
+		<obtainability>Survival</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>1/20 (1/40 for jungle saplings) chance of falling from leaves when broken, plantable to regrow trees, can be used as fuel (5 seconds)</other>
+	</item>
+	<item>
+		<id>7</id>
+		<name>bedrock</name>
+		<alt>adminium</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>18,000,000</durability>
+		<obtainability>Creative</obtainability>
+		<location>Just above the void</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Cannot be destroyed by TNT</other>
+	</item>
+	<item>
+		<id>8</id>
+		<name>water</name>
+		<alt>9, watr</alt><!--this is another ID for it-->
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Bucket</tool>
+		<durability>500</durability>
+		<obtainability>Server Commands</obtainability>
+		<location>Commonly between layers 48-62, ideally 62</location>
+		<stack>64</stack>
+		<physics>Partially</physics>
+		<other>Un-diggable, can be picked up with empty Bucket/bottle, stops explosions from affecting other blocks</other>
+	</item>
+	<item>
+		<id>10</id>
+		<name>lava</name>
+		<alt>11, magma</alt><!--This is another ID for it-->
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Bucket</tool>
+		<durability>500 (0 when flowing)</durability>
+		<obtainability>Server Commands</obtainability>
+		<location>Commonly between layers 4-10, ideally 10</location>
+		<stack>64</stack>
+		<physics>Partially</physics>
+		<other>Un-diggable, can be picked up with empty Bucket, can start fires</other>
+	</item>
+	<item>
+		<id>12</id>
+		<name>sand</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Shovel</tool>
+		<durability>2.5</durability>
+		<obtainability>Survival</obtainability>
+		<location>Commonly between layers 43-63, ideally 61</location>
+		<stack>64</stack>
+		<physics>Yes</physics>
+		<other>Can be crafted into sandstone or smelted into glass</other>
+	</item>
+	<item>
+		<id>13</id>
+		<name>gravel</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Shovel</tool>
+		<durability>3</durability>
+		<obtainability>Survival</obtainability>
+		<location>Commonly between layers 5-56, ideally 48</location>
+		<stack>64</stack>
+		<physics>Yes</physics>
+		<other>Occasionally drops flint</other>
+	</item>
+	<item>
+		<id>14</id>
+		<name>gold ore</name>
+		<alt>golden ore</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Iron Pickaxe</tool>
+		<durability>15</durability>
+		<obtainability>Survival</obtainability>
+		<location>Commonly between layers 4-29, ideally 28</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Always drops as a gold ore block</other>
+	</item>
+	<item>
+		<id>15</id>
+		<name>iron ore</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Stone Pickaxe</tool>
+		<durability>15</durability>
+		<obtainability>Survival</obtainability>
+		<location>Commonly between layers 2-58, ideally 42</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Always drops as an iron ore block</other>
+	</item>
+	<item>
+		<id>16</id>
+		<name>coal ore</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>15</durability>
+		<obtainability>Survival: Silk Touch</obtainability>
+		<location>Commonly between layers 5-66, ideally 48</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Drops coal when dug</other>
+	</item>
+	<item>
+		<id>17</id>
+		<name>wood</name>
+		<alt>tree, tree trunk, log</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>10</durability>
+		<obtainability>Survival</obtainability>
+		<location>Just above surface</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can be used as fuel (15 seconds)</other>
+	</item>
+	<item>
+		<id>18</id>
+		<name>leaves</name>
+		<alt>leaf</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Shears</tool>
+		<durability>1</durability>
+		<obtainability>Survival</obtainability>
+		<location>Near wood</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Decays when not near wood, unless player-placed.</other>
+	</item>
+	<item>
+		<id>19</id>
+		<name>sponge</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword (double damage)</tool>
+		<durability>3</durability>
+		<obtainability>Creative</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>20</id>
+		<name>glass</name>
+		<alt>glass block</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>sand</smelt>
+		<tool>Sword (double damage)</tool>
+		<durability>1.5</durability>
+		<obtainability>Survival: Smelt</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Transparent block</other>
+	</item>
+	<item>
+		<id>21</id>
+		<name>lapis lazuli ore</name>
+		<alt>lapiz lazuli ore, lapiz, lapiz ore</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Stone Pickaxe</tool>
+		<durability>15</durability>
+		<obtainability>Survival: Silk Touch</obtainability>
+		<location>Commonly between layers 11-17, ideally 14</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Drops lapis lazuli when dug</other>
+	</item>
+	<item>
+		<id>22</id>
+		<name>lapis lazuli block</name>
+		<alt>lapiz lazuli block, lapiz block</alt>
+		<craftT>L|L|L</craftT>
+		<craftM>L|L|L</craftM>
+		<craftB>L|L|L</craftB>
+		<key>L=lapis lazuli</key>
+		<smelt>N/A</smelt>
+		<tool>Stone Pickaxe</tool>
+		<durability>15</durability>
+		<obtainability>Survival</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can be crafted to save space (un-crafting yeilds 9 lapis lazuli)</other>
+	</item>
+	<item>
+		<id>23</id>
+		<name>dispenser</name>
+		<alt>shooter</alt>
+		<craftT>C|C|C</craftT>
+		<craftM>C|B|C</craftM>
+		<craftB>C|R|C</craftB>
+		<key>B=bow | C=Cobblestone | R=redstone dust</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>17.5</durability>
+		<obtainability>Survival</obtainability>
+		<location>Jungle Temple</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Interacts with redstone, will fire things out front</other>
+	</item>
+	<item>
+		<id>24</id>
+		<name>sandstone</name>
+		<alt>24:0</alt>
+		<craftT> | | </craftT>
+		<craftM>S|S| </craftM>
+		<craftB>S|S| </craftB>
+		<key>S=sand</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>4</durability>
+		<obtainability>Survival</obtainability>
+		<location>Under sand, in deserts, Villages, desert wells, Desert Temples</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>24:1</id>
+		<name>chiseled sandstone</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM> |S| </craftM>
+		<craftB> |S| </craftB>
+		<key>S=sandstone slab</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>4</durability>
+		<obtainability>Survival</obtainability>
+		<location>Desert Temples</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>24:2</id>
+		<name>smooth sandstone</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM>S|S| </craftM>
+		<craftB>S|S| </craftB>
+		<key>S=sandstone</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>4</durability>
+		<obtainability>Survival</obtainability>
+		<location>Villages, Desert Temples</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>25</id>
+		<name>note block</name>
+		<alt>notes, notes block</alt>
+		<craftT>P|P|P</craftT>
+		<craftM>P|R|P</craftM>
+		<craftB>P|P|P</craftB>
+		<key>P=planks | R=redstone dust</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>4</durability>
+		<obtainability>Survival</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Interacts with redstone, right-clicking changes pitch, makes different sounds based on nearby blocks, can be used as fuel (15 seconds)</other>
+	</item>
+	<item>
+		<id>26</id>
+		<name>bed bottom</name>
+		<alt>bed foot</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>1</durability>
+		<obtainability>Server Commands</obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Resets spawn point and sets time to day when used</other>
+	</item>
+	<item>
+		<id>27</id>
+		<name>powered rails</name>
+		<alt>powered rail</alt>
+		<craftT>G| |G</craftT>
+		<craftM>G|S|G</craftM>
+		<craftB>G|R|G</craftB>
+		<key>G=gold ingot | R=redstone dust | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>Pickaxe</tool>
+		<durability>3.5</durability>
+		<obtainability>Survival</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Interacts with redstone, makes minecarts move</other>
+	</item>
+	<item>
+		<id>28</id>
+		<name>detector rail</name>
+		<alt>pressure rail</alt>
+		<craftT>I| |I</craftT>
+		<craftM>I|P|I</craftM>
+		<craftB>I|R|I</craftB>
+		<key>I=iron ingot | R=redstone dust | P=stone pressure plate</key>
+		<smelt>N/A</smelt>
+		<tool>Pickaxe</tool>
+		<durability>3.5</durability>
+		<obtainability>Survival</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Triggers redstone when minecart goes over it</other>
+	</item>
+	<item>
+		<id>29</id>
+		<name>sticky piston</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM> |S| </craftM>
+		<craftB> |P| </craftB>
+		<key>P=piston | S=slimeball</key>
+		<smelt>N/A</smelt>
+		<tool>Sword (double damage)</tool>
+		<durability>2.5</durability>
+		<obtainability>Survival</obtainability>
+		<location>Jungle Temple</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Interacts with redstone, pushes and pulls blocks</other>
+	</item>
+	<item>
+		<id>30</id>
+		<name>spider web</name>
+		<alt>cobweb</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Shears, Sword(double damage)</tool>
+		<durability>20</durability>
+		<obtainability>Survival</obtainability>
+		<location>in mineshafts, around spider spawners</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Drops string when dug, makes player/mobs (besides spider) move slowly</other>
+	</item>
+	<item>
+		<id>31</id>
+		<name>grass</name>
+		<alt>tall grass, long grass, fern, living shrub</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Shears</tool>
+		<durability>0</durability>
+		<obtainability>Survival</obtainability>
+		<location>On Grass blocks in certain biomes</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Occasionally drops Wheat Seeds</other>
+	</item>
+	<item>
+		<id>32</id>
+		<name>dead bush</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Shears</tool>
+		<durability>0</durability>
+		<obtainability>Survival</obtainability>
+		<location>On Sand blocks in deserts and rarely in swamps</location>
+		<stack>64</stack>
+		<physics>Yes</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>33</id>
+		<name>piston</name>
+		<alt> </alt>
+		<craftT>P|P|P</craftT>
+		<craftM>C|I|C</craftM>
+		<craftB>C|R|C</craftB>
+		<key>C=cobblestone | I=iron ingot | P=planks | R=redstone dust</key>
+		<smelt>N/A</smelt>
+		<tool>Sword (double damage)</tool>
+		<durability>2.5</durability>
+		<obtainability>Survival</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Interacts with redstone, pushes blocks</other>
+	</item>
+	<item>
+		<id>34</id>
+		<name>piston top</name>
+		<alt>piston arm</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>2.5</durability>
+		<obtainability>Server Commands</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Unobtainable</other>
+	</item>
+	<item>
+		<id>35</id>
+		<name>wool</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM>S|S| </craftM>
+		<craftB>S|S| </craftB>
+		<key>S=string</key>
+		<smelt>N/A</smelt>
+		<tool>Shears</tool>
+		<durability>4</durability>
+		<obtainability>Survival</obtainability>
+		<location>In Desert Temples, and Villages</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Dropped when sheep killed/sheared</other>
+	</item>
+	<item>
+		<id>36</id>
+		<name>block 36</name>
+		<alt>block moved by piston</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Right-click to remove</tool>
+		<durability>0</durability>
+		<obtainability>Server Commands</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Unobtainable</other>
+	</item>
+	<item>
+		<id>37</id>
+		<name>dandelion</name>
+		<alt>yellow flower</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability>Survival</obtainability>
+		<location>In random clusters on Grass blocks</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>A lovely yellow flower</other>
+	</item>
+	<item>
+		<id>38</id>
+		<name>rose</name>
+		<alt>red flower</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability>Survival</obtainability>
+		<location>In small random clusters on Grass blocks</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Somewhat rarer than Dandelions, roses are typically found alone, or in groups of 3-4</other>
+	</item>
+	<item>
+		<id>39</id>
+		<name>brown mushroom</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability> </durability>
+		<obtainability>Survival</obtainability>
+		<location>In dark places, swamps, mushroom biomes, and in the Nether</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Not placeable in light places/ next to adjacent blocks</other>
+	</item>
+	<item>
+		<id>40</id>
+		<name>red mushroom</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability> </durability>
+		<obtainability>Survival</obtainability>
+		<location>In dark places, swamps, mushroom biomes, and in the Nether</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Not placeable in light places/ next to adjacent blocks</other>
+	</item>
+	<item>
+		<id>41</id>
+		<name>gold block</name>
+		<alt> </alt>
+		<craftT>G|G|G</craftT>
+		<craftM>G|G|G</craftM>
+		<craftB>G|G|G</craftB>
+		<key>G=gold ingot</key>
+		<smelt>N/A</smelt>
+		<tool>Iron Pickaxe</tool>
+		<durability>30</durability>
+		<obtainability>Survival</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can be crafted to save space (uncrafting yields 9 gold ingots)</other>
+	</item>
+	<item>
+		<id>42</id>
+		<name>iron block</name>
+		<alt> </alt>
+		<craftT>I|I|I</craftT>
+		<craftM>I|I|I</craftM>
+		<craftB>I|I|I</craftB>
+		<key>I=iron ingot</key>
+		<smelt>N/A</smelt>
+		<tool>Stone Pickaxe</tool>
+		<durability>30</durability>
+		<obtainability>Survival</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can be crafted to save space (uncrafting yields 9 iron ingots)</other>
+	</item>
+	<item>
+		<id>43</id>
+		<name>double stone slab</name>
+		<alt>two stone slabs, stacked stone slabs</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Pickaxe/Axe</tool>
+		<durability>30</durability>
+		<obtainability>Server Commands</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Made in world by placing a stone slab on top of another</other>
+	</item>
+	<item>
+		<id>44</id>
+		<name>single stone slab</name>
+		<alt>half stone block, stone slab</alt>
+		<craftT> | | </craftT>
+		<craftM> | | </craftM>
+		<craftB>B|B|B</craftB>
+		<key>B=cobblestone,sandstone,stone,stone bricks</key>
+		<smelt>N/A</smelt>
+		<tool>Pickaxe/Axe</tool>
+		<durability>30</durability>
+		<obtainability>Survival</obtainability>
+		<location>various structures</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Mobs cannot spawn on single stone slabs unless they are upside-down.</other>
+	</item>
+	<item>
+		<id>45</id>
+		<name>bricks</name>
+		<alt>brick block</alt>
+		<craftT> | | </craftT>
+		<craftM>B|B| </craftM>
+		<craftB>B|B| </craftB>
+		<key>B=brick</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>30</durability>
+		<obtainability>Survival</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>46</id>
+		<name>tnt</name>
+		<alt>dynamite</alt>
+		<craftT>G|S|G</craftT>
+		<craftM>S|G|S</craftM>
+		<craftB>G|S|G</craftB>
+		<key>G=gunpowder | S=sand</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>0</durability>
+		<obtainability>Survival</obtainability>
+		<location>Desert Temples</location>
+		<stack>64</stack>
+		<physics>yes, only when lit</physics>
+		<other>Interacts with redstone, explodes when lit with redstone/fire</other>
+	</item>
+	<item>
+		<id>47</id>
+		<name>bookshelf</name>
+		<alt>bookcase</alt>
+		<craftT>P|P|P</craftT>
+		<craftM>B|B|B</craftM>
+		<craftB>P|P|P</craftB>
+		<key>B=book | P=planks</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>7.5</durability>
+		<obtainability>Survival</obtainability>
+		<location>Villages</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Drops 3 books when dug, will make enchanting tables more powerful when placed 1 meter away</other>
+	</item>
+	<item>
+		<id>48</id>
+		<name>moss stone</name>
+		<alt>mossy cobblestone, mossy cobble, mossy, moss</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>30</durability>
+		<obtainability>Survival</obtainability>
+		<location>Dungeons, Villages, Jungle Temples</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>49</id>
+		<name>obsidian</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Diamond Pickaxe</tool>
+		<durability>6,000</durability>
+		<obtainability>Survival</obtainability>
+		<location>Near lava and water in same location</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Cannot be destroyed by TNT, used to make Nether portals, Ender Chests, Enchantment Tables, and Beacons</other>
+	</item>
+	<item>
+		<id>50</id>
+		<name>torch</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM> |C| </craftM>
+		<craftB> |S| </craftB>
+		<key>C=coal,charcoal | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>0</durability>
+		<obtainability>Survival</obtainability>
+		<location>Located in mineshafts, Villages, and strongholds</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>generates light, breaks falling sand and gravel</other>
+	</item>
+	<item>
+		<id>51</id>
+		<name>fire</name>
+		<alt>flame, flames</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>All</tool>
+		<durability>0</durability>
+		<obtainability>Server Commands</obtainability>
+		<location>Located on lightning strikes, but more frequently in the Nether</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Destroys certain blocks, punch to put out, unobtainable</other>
+	</item>
+	<item>
+		<id>52</id>
+		<name>monster spawner</name>
+		<alt>mob spawner</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>25</durability>
+		<obtainability>Server Commands</obtainability>
+		<location>dungeons, nether fortresses, mineshafts</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Creates mobs when player is near</other>
+	</item>
+	<item>
+		<id>53</id>
+		<name>oak wood stairs</name>
+		<alt>oak stairs</alt>
+		<craftT>P| | </craftT>
+		<craftM>P|P| </craftM>
+		<craftB>P|P|P</craftB>
+		<key>P=wooden planks(oak)</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>15</durability>
+		<obtainability>Survival</obtainability>
+		<location>Villages</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Allows player/mobs to move up blocks without jumping, can be placed upside-down, can be used as fuel (15 seconds)</other>
+	</item>
+	<item>
+		<id>54</id>
+		<name>chest</name>
+		<alt>trunk</alt>
+		<craftT>P|P|P</craftT>
+		<craftM>P| |P</craftM>
+		<craftB>P|P|P</craftB>
+		<key>P=planks</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>12.5</durability>
+		<obtainability>Survival</obtainability>
+		<location>Villages, dungeons, mineshafts, jungle temples, desert pyramids</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Holds items, can be placed next to others to enlarge, must have open space above to work, can be used as fuel (15 seconds)</other>
+	</item>
+	<item>
+		<id>55</id>
+		<name>redstone wire</name>
+		<alt>wire</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>0</durability>
+		<obtainability>Inventory Editing</obtainability>
+		<location>Jungle Temple</location>
+		<stack>64</stack>
+		<physics>cannot float</physics>
+		<other>Unobtainable, drops redstone dust when dropped, can be powered to transfer redstone current</other>
+	</item>
+	<item>
+		<id>56</id>
+		<name>diamond ore</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Iron Pickaxe</tool>
+		<durability>15</durability>
+		<obtainability>Survival: Silk Touch</obtainability>
+		<location>Commonly between layers 4-13, ideally 12</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Drops diamond when dropped</other>
+	</item>
+	<item>
+		<id>57</id>
+		<name>diamond block</name>
+		<alt> </alt>
+		<craftT>D|D|D</craftT>
+		<craftM>D|D|D</craftM>
+		<craftB>D|D|D</craftB>
+		<key>D=diamond</key>
+		<smelt>N/A</smelt>
+		<tool>Iron Pickaxe</tool>
+		<durability>30</durability>
+		<obtainability>Survival</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Used for saving space (un-crafting yields 9 diamonds)</other>
+	</item>
+	<item>
+		<id>58</id>
+		<name>crafting table</name>
+		<alt>workbench</alt>
+		<craftT> | | </craftT>
+		<craftM>P|P| </craftM>
+		<craftB>P|P| </craftB>
+		<key>P=planks</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>12.5</durability>
+		<obtainability>Survival</obtainability>
+		<location>Villages, Swamp Huts</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Used to craft other items, can be used as fuel (15 seconds)</other>
+	</item>
+	<item>
+		<id>59</id>
+		<name>wheat stalks</name>
+		<alt>seed growth</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>0</durability>
+		<obtainability>Inventory Editing</obtainability>
+		<location>Villages</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Drops seeds and wheat when dug, created by using seeds on farmland</other>
+	</item>
+	<item>
+		<id>60</id>
+		<name>farmland</name>
+		<alt>cropland</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Shovel</tool>
+		<durability>3</durability>
+		<obtainability>Server Commands</obtainability>
+		<location>Villages</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Drops dirt when dug, turns to dirt when walked on, can be hydrated by nearby water</other>
+	</item>
+	<item>
+		<id>61</id>
+		<name>furnace</name>
+		<alt>62</alt><!--this is another ID for it-->
+		<craftT>C|C|C</craftT>
+		<craftM>C| |C</craftM>
+		<craftB>C|C|C</craftB>
+		<key>C=cobblestone</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>17.5</durability>
+		<obtainability>Survival</obtainability>
+		<location>Villages</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Smelts items, cooks food, and emits light when in use</other>
+	</item>
+	<item>
+		<id>63</id>
+		<name>sign post</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>5</durability>
+		<obtainability>Server Commands</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>64</id>
+		<name>wooden door bottom</name>
+		<alt>wood door bottom</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>15</durability>
+		<obtainability>Server Commands</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>65</id>
+		<name>ladder</name>
+		<alt> </alt>
+		<craftT>S| |S</craftT>
+		<craftM>S|S|S</craftM>
+		<craftB>S| |S</craftB>
+		<key>S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>Sword (double damage)</tool>
+		<durability>2</durability>
+		<obtainability>Survival</obtainability>
+		<location>Villages</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Allows player to climb walls</other>
+	</item>
+	<item>
+		<id>66</id>
+		<name>rail</name>
+		<alt>rails</alt>
+		<craftT>I| |I</craftT>
+		<craftM>I|S|I</craftM>
+		<craftB>I| |I</craftB>
+		<key>I=iron ingot | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>Pickaxe</tool>
+		<durability>3.5</durability>
+		<obtainability>Survival</obtainability>
+		<location>Mineshafts</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Minecarts ride on rails</other>
+	</item>
+	<item>
+		<id>67</id>
+		<name>cobblestone stairs</name>
+		<alt>cobble stairs</alt>
+		<craftT>C| | </craftT>
+		<craftM>C|C| </craftM>
+		<craftB>C|C|C</craftB>
+		<key>C=cobblestone</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>30</durability>
+		<obtainability>Survival</obtainability>
+		<location>In Strongholds and Villages</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Allows player/mobs to move up blocks without jumping, can be placed upside-down</other>
+	</item>
+	<item>
+		<id>68</id>
+		<name>wall sign</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>5</durability>
+		<obtainability>Server Commands</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Drops sign when dug, only placeable on vertical surfaces</other>
+	</item>
+	<item>
+		<id>69</id>
+		<name>lever</name>
+		<alt>switch</alt>
+		<craftT> | | </craftT>
+		<craftM> |S| </craftM>
+		<craftB> |C| </craftB>
+		<key>C=cobblestone | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>Sword (double damage)</tool>
+		<durability>2.5</durability>
+		<obtainability>Survival</obtainability>
+		<location>Jungle Temple</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Interacts with redstone, generates current as toggle</other>
+	</item>
+	<item>
+		<id>70</id>
+		<name>stone pressure plate</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM> | | </craftM>
+		<craftB>S|S| </craftB>
+		<key>S=stone</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe/Axe</tool>
+		<durability>2.5</durability>
+		<obtainability>Survival</obtainability>
+		<location>In Desert Temples</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Interacts with redstone, generates redstone current when pressed (mobs)</other>
+	</item>
+	<item>
+		<id>71</id>
+		<name>iron door bottom</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>25</durability>
+		<obtainability>Server Commands</obtainability>
+		<location>In Strongholds</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>72</id>
+		<name>wooden pressure plate</name>
+		<alt>wood pressure plate</alt>
+		<craftT> | | </craftT>
+		<craftM> | | </craftM>
+		<craftB>P|P|P</craftB>
+		<key>P=planks</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe/Axe</tool>
+		<durability>2.5</durability>
+		<obtainability>Survival</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Interacts with redstone, generates redstone current when pressed (mobs/items/projectiles), can be used as fuel (15 seconds)</other>
+	</item>
+	<item>
+		<id>73</id>
+		<name>redstone ore</name>
+		<alt>74</alt><!--another ID for this-->
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Iron Pickaxe</tool>
+		<durability>15</durability>
+		<obtainability>Survival: Silk Touch</obtainability>
+		<location>Commonly between layers 4-13, ideally 12</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Lights up and emits particles when dug/walked on, drops redstone when dug</other>
+	</item>
+	<item>
+		<id>76</id>
+		<name>redstone torch</name>
+		<alt>75</alt><!--another ID for this-->
+		<craftT> | | </craftT>
+		<craftM> |R| </craftM>
+		<craftB> |S| </craftB>
+		<key>R=redstone dust | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>0</durability>
+		<obtainability>Survival</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Interacts with redstone, generates redstone current, toggles depending on input as well, emits small amount of light</other>
+	</item>
+	<item>
+		<id>77</id>
+		<name>stone button</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM> |S| </craftM>
+		<craftB> | | </craftB>
+		<key>S=stone</key>
+		<smelt>N/A</smelt>
+		<tool>Sword (double damage)</tool>
+		<durability>2.5</durability>
+		<obtainability>Survival</obtainability>
+		<location>Strongholds</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Interacts with redstone, generates current while depressed by player</other>
+	</item>
+	<item>
+		<id>78</id>
+		<name>snow</name>
+		<alt>snow layer</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Shovel</tool>
+		<durability>0.5</durability>
+		<obtainability>Creative</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Drops snowball when dug by a Shovel, melts when near light sources</other>
+	</item>
+	<item>
+		<id>79</id>
+		<name>ice</name>
+		<alt>ice block</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Pickaxe</tool>
+		<durability>2.5</durability>
+		<obtainability>Survival: Silk Touch</obtainability>
+		<location>In Ice Plains and Taiga biomes</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Creates water when melted, slippery, accelerates movement of entities, players, and mobs</other>
+	</item>
+	<item>
+		<id>80</id>
+		<name>snow block</name>
+		<alt>snow</alt>
+		<craftT> | | </craftT>
+		<craftM>S|S| </craftM>
+		<craftB>S|S| </craftB>
+		<key>S=snowball</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Shovel</tool>
+		<durability>1</durability>
+		<obtainability>Survival</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can be used to store snowballs (uncrafting yields 4 snowballs)</other>
+	</item>
+	<item>
+		<id>81</id>
+		<name>cactus</name>
+		<alt>cacti</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword (double damage)</tool>
+		<durability>2</durability>
+		<obtainability>Survival</obtainability>
+		<location>deserts</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Grows 3 meters tall, damages mobs, must be placed on sand, cannot have blocks adjacent to it</other>
+	</item>
+	<item>
+		<id>82</id>
+		<name>clay block</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM>C|C| </craftM>
+		<craftB>C|C| </craftB>
+		<key>C=clay balls</key>
+		<smelt>N/A</smelt>
+		<tool>Shovel</tool>
+		<durability>3</durability>
+		<obtainability>Survival</obtainability>
+		<location>Usually under water, but anywhere in, around or under sand</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Digging yields 3-5 clay balls</other>
+	</item>
+	<item>
+		<id>83</id>
+		<name>sugar cane</name>
+		<alt>reeds, papyrus, bamboo</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>0</durability>
+		<obtainability>Survival</obtainability>
+		<location>On Grass, Dirt, or Sand, but always next to water</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Must be placed on grass, grows 3 meters tall</other>
+	</item>
+	<item>
+		<id>84</id>
+		<name>jukebox</name>
+		<alt>music box, juke box</alt>
+		<craftT>P|P|P</craftT>
+		<craftM>P|D|P</craftM>
+		<craftB>P|P|P</craftB>
+		<key>D=diamond | P=planks</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>30</durability>
+		<obtainability>Survival</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Plays music disks, can be used as fuel (15 seconds)</other>
+	</item>
+	<item>
+		<id>85</id>
+		<name>fence</name>
+		<alt>fence post</alt>
+		<craftT> | | </craftT>
+		<craftM>S|S|S</craftM>
+		<craftB>S|S|S</craftB>
+		<key>S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>15</durability>
+		<obtainability>Survival</obtainability>
+		<location>In Villages and Mineshafts</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Effectively 1.5 meters tall to mobs, can be used as fuel (15 seconds)</other>
+	</item>
+	<item>
+		<id>86</id>
+		<name>pumpkin</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>5</durability>
+		<obtainability>Survival</obtainability>
+		<location>On grass, common in mountains and plains, but rare in sandy, snowy, and forest regions</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>87</id>
+		<name>netherrack</name>
+		<alt>netherstone, netherrock, nether stone, nether rack, nether rock</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>2</durability>
+		<obtainability>Survival</obtainability>
+		<location>In the Nether</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Will burn forever if lit on fire</other>
+	</item>
+	<item>
+		<id>88</id>
+		<name>soul sand</name>
+		<alt>slow sand</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Shovel</tool>
+		<durability>2.5</durability>
+		<obtainability>Survival</obtainability>
+		<location>In the Nether</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Mobs/items moving on soul sand will have decreased speed</other>
+	</item>
+	<item>
+		<id>89</id>
+		<name>glowstone</name>
+		<alt>lightstone</alt>
+		<craftT> | | </craftT>
+		<craftM>G|G| </craftM>
+		<craftB>G|G| </craftB>
+		<key>G=glowstone dust</key>
+		<smelt>N/A</smelt>
+		<tool>Sword (double damage)</tool>
+		<durability>1.5</durability>
+		<obtainability>Survival</obtainability>
+		<location>In the Nether</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Drops 2-5 glowstone dust when dropped</other>
+	</item>
+	<item>
+		<id>90</id>
+		<name>portal</name>
+		<alt>nether portal</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>0</durability>
+		<obtainability>Server Commands</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>91</id>
+		<name>jack o lantern</name>
+		<alt>jack-o-lantern</alt>
+		<craftT> | | </craftT>
+		<craftM> |P| </craftM>
+		<craftB> |T| </craftB>
+		<key>P=pumpkin | T=torch</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>5</durability>
+		<obtainability>Survival</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Will glow underwater, emits light</other>
+	</item>
+	<item>
+		<id>92</id>
+		<name>cake block</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword (double damage)</tool>
+		<durability>2.5</durability>
+		<obtainability>Creative: Pick Block</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Eating cake cuts off piece</other>
+	</item>
+	<item>
+		<id>93</id>
+		<name>redstone repeater block</name>
+		<alt>94</alt><!--another ID for this-->
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>0</durability>
+		<obtainability>Server Commands</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Cannot float, unobtainable, drops redstone repeater when dug</other>
+	</item>
+	<item>
+		<id>95</id>
+		<name>locked chest</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>0</durability>
+		<obtainability>Server Commands</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Placeholder block, decay when placed</other>
+	</item>
+	<item>
+		<id>96</id>
+		<name>trapdoor</name>
+		<alt>trap door</alt>
+		<craftT> | | </craftT>
+		<craftM>P|P|P</craftM>
+		<craftB>P|P|P</craftB>
+		<key>P=planks</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>15</durability>
+		<obtainability>Survival</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Allows/ denies mobs from going up/down holes in ground/roof, can be used as fuel (15 seconds)</other>
+	</item>
+	<item>
+		<id>97</id>
+		<name>monster egg</name>
+		<alt>silverfish block, block 97</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword (double damage)</tool>
+		<durability>3.75</durability>
+		<obtainability>Creative</obtainability>
+		<location>In Strongholds</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Easily destroyed by hand, spawned using stone/ cobblestone eggs, drops silverfish when dug</other>
+	</item>
+	<item>
+		<id>98</id>
+		<name>stone bricks</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM>S|S| </craftM>
+		<craftB>S|S| </craftB>
+		<key>S=stone</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>30</durability>
+		<obtainability>Survival</obtainability>
+		<location>In Strongholds</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>99</id>
+		<name>huge brown mushroom</name>
+		<alt>giant brown mushroom</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>1</durability>
+		<obtainability>Survival: Silk Touch</obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Drops brown mushrooms when dug, can be used as fuel (15 seconds)</other>
+	</item>
+	<item>
+		<id>100</id>
+		<name>huge red mushroom</name>
+		<alt>giant red mushroom</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>1</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Drops red mushrooms when dug, can be used as fuel (15 seconds)</other>
+	</item>
+	<item>
+		<id>101</id>
+		<name>iron bars</name>
+		<alt>bars</alt>
+		<craftT> | | </craftT>
+		<craftM>I|I|I</craftM>
+		<craftB>I|I|I</craftB>
+		<key>I=iron ingots</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>30</durability>
+		<obtainability> </obtainability>
+		<location>In Strongholds</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>102</id>
+		<name>glass pane</name>
+		<alt>pane</alt>
+		<craftT> | | </craftT>
+		<craftM>G|G|G</craftM>
+		<craftB>G|G|G</craftB>
+		<key>G=glass block</key>
+		<smelt>N/A</smelt>
+		<tool>Sword (double damage)</tool>
+		<durability>1.5</durability>
+		<obtainability> </obtainability>
+		<location>Villages</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>103</id>
+		<name>melon</name>
+		<alt>melon block, watermelon</alt>
+		<craftT>M|M|M</craftT>
+		<craftM>M|M|M</craftM>
+		<craftB>M|M|M</craftB>
+		<key>M=melon slice</key>
+		<smelt>N/A</smelt>
+		<tool>Sword (double damage)</tool>
+		<durability>5</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Yields 3-7 melon slices when dug</other>
+	</item>
+	<item>
+		<id>104</id>
+		<name>pumpkin stem</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>0</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Unobtainable, drops 0-3 pumpkin seeds when dug</other>
+	</item>
+	<item>
+		<id>105</id>
+		<name>melon stem</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>0</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Unobtainable, drops 0-4 melon seeds when dug</other>
+	</item>
+	<item>
+		<id>106</id>
+		<name>vines</name>
+		<alt>ivy</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Shears</tool>
+		<durability>1</durability>
+		<obtainability> </obtainability>
+		<location>swamp/jungle biomes, jungle temple</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Must be placed on bottom/sides of block, will spread</other>
+	</item>
+	<item>
+		<id>107</id>
+		<name>fence gate</name>
+		<alt>gate</alt>
+		<craftT> | | </craftT>
+		<craftM>S|P|S</craftM>
+		<craftB>S|P|S</craftB>
+		<key>P=planks | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>15</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Must be block beneath it when placed (block beneath can be dug later), effectively 1.5 meters tall to mobs</other>
+	</item>
+	<item>
+		<id>108</id>
+		<name>brick stairs</name>
+		<alt>brick stair</alt>
+		<craftT>B| | </craftT>
+		<craftM>B|B| </craftM>
+		<craftB>B|B|B</craftB>
+		<key>B=brick</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe/Axe</tool>
+		<durability>30</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Allows player/mobs to move up blocks without jumping, can be placed upside-down</other>
+	</item>
+	<item>
+		<id>109</id>
+		<name>stone brick stairs</name>
+		<alt>stone brick stair</alt>
+		<craftT>S| | </craftT>
+		<craftM>S|S| </craftM>
+		<craftB>S|S|S</craftB>
+		<key>S=stone bricks</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe/Axe</tool>
+		<durability>30</durability>
+		<obtainability> </obtainability>
+		<location>In Strongholds</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Allows player/mobs to move up blocks without jumping, can be placed upside-down</other>
+	</item>
+	<item>
+		<id>110</id>
+		<name>mycelium</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Shovel</tool>
+		<durability>2.5</durability>
+		<obtainability> </obtainability>
+		<location>In Mushroom biomes</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Drops dirt when dug, emits spore particles</other>
+	</item>
+	<item>
+		<id>111</id>
+		<name>lily pad</name>
+		<alt>pad</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>0</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can only be placed on water</other>
+	</item>
+	<item>
+		<id>112</id>
+		<name>nether brick</name>
+		<alt> </alt>
+		<craftT>N| | </craftT>
+		<craftM>N|N| </craftM>
+		<craftB>N|N|N</craftB>
+		<key>N=netherrack</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>30</durability>
+		<obtainability> </obtainability>
+		<location>In Nether Fortresses</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>113</id>
+		<name>nether brick fence</name>
+		<alt>nether fence</alt>
+		<craftT> | | </craftT>
+		<craftM>B|B|B</craftM>
+		<craftB>B|B|B</craftB>
+		<key>B=nether brick</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>30</durability>
+		<obtainability> </obtainability>
+		<location>In Nether Fortresses</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Effectively 1.5 meters tall to mobs</other>
+	</item>
+	<item>
+		<id>114</id>
+		<name>nether brick stairs</name>
+		<alt>nether stairs</alt>
+		<craftT>B| | </craftT>
+		<craftM>B|B| </craftM>
+		<craftB>B|B|B</craftB>
+		<key>B=nether brick</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe/Axe</tool>
+		<durability>30</durability>
+		<obtainability> </obtainability>
+		<location>In Nether Fortresses</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Allows player/mobs to move up blocks without jumping, can be placed upside-down</other>
+	</item>
+	<item>
+		<id>115</id>
+		<name>nether wart</name>
+		<alt>nether stalk, netherwart, netherwort, nether wort</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>0</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Unobtainable, drops 2-4 nether wart seeds when fully grown</other>
+	</item>
+	<item>
+		<id>116</id>
+		<name>enchantment table</name>
+		<alt>enchanting table</alt>
+		<craftT> |B| </craftT>
+		<craftM>D|O|D</craftM>
+		<craftB>O|O|O</craftB>
+		<key>B=book | D=diamond | O=obsidian</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>6,000</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Used to enchant tools and armor</other>
+	</item>
+	<item>
+		<id>117</id>
+		<name>brewing stand</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM> |B| </craftM>
+		<craftB>C|C|C</craftB>
+		<key>B=blaze rod | C=cobblestone</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>2.5</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Unobtainable, drops brewing stand when dug</other>
+	</item>
+	<item>
+		<id>118</id>
+		<name>cauldron</name>
+		<alt> </alt>
+		<craftT>I| |I</craftT>
+		<craftM>I| |I</craftM>
+		<craftB>I|I|I</craftB>
+		<key>I=iron ingot</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>10</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Unobtainable, drops cauldron when dug</other>
+	</item>
+	<item>
+		<id>119</id>
+		<name>end portal</name>
+		<alt>ender portal</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>18,000,000</durability>
+		<obtainability> </obtainability>
+		<location>In Strongholds and in the End</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Unobtainable</other>
+	</item>
+	<item>
+		<id>120</id>
+		<name>ender portal frame</name>
+		<alt>end portal frame</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>18,000,000</durability>
+		<obtainability> </obtainability>
+		<location>In Strongholds</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can hold Eyes of Ender, unbreakable</other>
+	</item>
+	<item>
+		<id>121</id>
+		<name>end stone</name>
+		<alt>ender stone, white stone</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>45</durability>
+		<obtainability> </obtainability>
+		<location>In the End</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Unbreakable by Enderdragon, highest blast resistance of any block destroyable by explosions</other>
+	</item>
+	<item>
+		<id>122</id>
+		<name>dragon egg</name>
+		<alt>ender dragon egg</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>45</durability>
+		<obtainability> </obtainability>
+		<location>On top of the portal out of the End</location>
+		<stack>64</stack>
+		<physics>Yes</physics>
+		<other>Hitting it teleports it a short distance away, must be picked up with the "sand and torch" technique</other>
+	</item>
+	<item>
+		<id>123</id>
+		<name>redstone lamp</name>
+		<alt>lantern</alt>
+		<craftT> |R| </craftT>
+		<craftM>R|G|R</craftM>
+		<craftB> |R| </craftB>
+		<key>G=glowstone block | R=redstone dust</key>
+		<smelt>N/A</smelt>
+		<tool>Sword (double damage)</tool>
+		<durability>1.5</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Interacts with redstone, emits light when redstone signal received</other>
+	</item>
+	<item>
+		<id>124</id>
+		<name>active redstone lamp</name>
+		<alt>active lantern, on redstone lamp, on lantern</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword (double damage)</tool>
+		<durability>1.5</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Unobtainable</other>
+	</item>
+	<item>
+		<id>125</id>
+		<name>double wooden slab</name>
+		<alt>stacked wooden slabs, two wooden slabs,</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe/Axe</tool>
+		<durability>15</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Unobtainable, drops two slabs when dug, color varies with color of wood</other>
+	</item>
+	<item>
+		<id>126</id>
+		<name>single wooden slab</name>
+		<alt>wooden slab, wood slab, half wood block</alt>
+		<craftT> | | </craftT>
+		<craftM> | | </craftM>
+		<craftB>P|P| </craftB>
+		<key>P=planks</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe/Axe</tool>
+		<durability>15</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can be used as fuel (15 seconds), color varies with color of wood</other>
+	</item>
+	<item>
+		<id>127</id>
+		<name>cocoa pod</name>
+		<alt>cocoa plant</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword (double damage)</tool>
+		<durability>15</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Grows on trees, unobtainable, drops cocoa beans when dug, located on side of jungle tree logs</other>
+	</item>
+	<item>
+		<id>128</id>
+		<name>sandstone stairs</name>
+		<alt> </alt>
+		<craftT>S| | </craftT>
+		<craftM>S|S| </craftM>
+		<craftB>S|S|S</craftB>
+		<key>S=sandstone</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe/Axe</tool>
+		<durability>30</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Allows player/mobs to move up blocks without jumping, can be placed upside-down</other>
+	</item>
+	<item>
+		<id>129</id>
+		<name>emerald ore</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>15</smelt>
+		<tool>Iron Pickaxe</tool>
+		<durability> </durability>
+		<obtainability> </obtainability>
+		<location>Extreme Hills (Edge) biomes, between layers 4-29, ideally 20</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Drops emeralds when dug</other>
+	</item>
+	<item>
+		<id>130</id>
+		<name>ender chest</name>
+		<alt>end chest</alt>
+		<craftT>O|O|O</craftT>
+		<craftM>O|E|O</craftM>
+		<craftB>O|O|O</craftB>
+		<key>E=eye of ender | O=obsidian</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>3,000</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Holds items, if chest destroyed then items will not fall out, drops 8 obsidian when broken without silk touch, only one inventory in all ender chests per player, must have open space above to work</other>
+	</item>
+	<item>
+		<id>131</id>
+		<name>tripwire hook</name>
+		<alt>tripwire hooks</alt>
+		<craftT> |I| </craftT>
+		<craftM> |S| </craftM>
+		<craftB> |P| </craftB>
+		<key>I=iron ingot | P=planks | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>2.5</durability>
+		<obtainability> </obtainability>
+		<location>In Jungle Temples</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Interacts with redstone, generates signal if entity touches tripwire (including mobs and projectiles like arrows)</other>
+	</item>
+	<item>
+		<id>132</id>
+		<name>tripwire</name>
+		<alt>tripwires</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Shears</tool>
+		<durability>0</durability>
+		<obtainability> </obtainability>
+		<location>In Jungle Temples</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Unobtainable, entity activates by touching it (this includes mobs and prjectiles), drops string when dug</other>
+	</item>
+	<item>
+		<id>133</id>
+		<name>block of emerald</name>
+		<alt>emerald block</alt>
+		<craftT>E|E|E</craftT>
+		<craftM>E|E|E</craftM>
+		<craftB>E|E|E</craftB>
+		<key>E=emerald</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>30</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Uncrafting yields 9 emeralds</other>
+	</item>
+	<item>
+		<id>134</id>
+		<name>spruce wood stairs</name>
+		<alt>spruce stairs</alt>
+		<craftT>P| | </craftT>
+		<craftM>P|P| </craftM>
+		<craftB>P|P|P</craftB>
+		<key>P=wooden planks(spruce)</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>15</durability>
+		<obtainability> </obtainability>
+		<location>Villages</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Allows player/mobs to move up blocks without jumping, can be placed upside-down, can be used as fuel (15 seconds)</other>
+	</item>
+	<item>
+		<id>135</id>
+		<name>birch wood stairs</name>
+		<alt>birch stairs</alt>
+		<craftT>P| | </craftT>
+		<craftM>P|P| </craftM>
+		<craftB>P|P|P</craftB>
+		<key>P=wooden planks(birch)</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>15</durability>
+		<obtainability> </obtainability>
+		<location>Villages</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Allows player/mobs to move up blocks without jumping, can be placed upside-down, can be used as fuel (15 seconds)</other>
+	</item>
+	<item>
+		<id>136</id>
+		<name>jungle wood stairs</name>
+		<alt>jungle stairs</alt>
+		<craftT>P| | </craftT>
+		<craftM>P|P| </craftM>
+		<craftB>P|P|P</craftB>
+		<key>P=wooden planks(jungle)</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>15</durability>
+		<obtainability> </obtainability>
+		<location>Villages</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Allows player/mobs to move up blocks without jumping, can be placed upside-down, can be used as fuel (15 seconds)</other>
+	</item>
+	<item>
+		<id>137</id>
+		<name>command block</name>
+		<alt>adventure block</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>0</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Obtainable by server commands only, used to run server commands for adventure maps and other uses</other>
+	</item>
+	<item>
+		<id>138</id>
+		<name>beacon</name>
+		<alt>beacon block, beakon, wip block</alt>
+		<craftT>G|G|G</craftT>
+		<craftM>G|N|G</craftM>
+		<craftB>O|O|O</craftB>
+		<key>G=glass | O=obsidian | N= Nether Star</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>15</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Buffs players in range when stacked on a pyramid of diamond, emerald, gold, or iron</other>
+	</item>
+	<item>
+		<id>139</id>
+		<name>cobblestone wall</name>
+		<alt>stone wall, wall, mossy wall</alt>
+		<craftT> | | </craftT>
+		<craftM>C|C|C</craftM>
+		<craftB>C|C|C</craftB>
+		<key>C=cobblestone</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>30</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Works like fence, moss stone can be used instead of cobblestone, effectively 1.5 meters tall to mobs</other>
+	</item>
+	<item>
+		<id>140</id>
+		<name>flower pot</name>
+		<alt>pot</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>0</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Unobtainable, block item of Flower Pots</other>
+	</item>
+	<item>
+		<id>141</id>
+		<name>carrot crop</name>
+		<alt>carrot growth</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>0</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Unobtainable, block item of growing carrot plant</other>
+	</item>
+	<item>
+		<id>142</id>
+		<name>potato crop</name>
+		<alt>potato growth</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>0</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Unobtainable, block item of growing potato plant</other>
+	</item>
+	<item>
+		<id>143</id>
+		<name>wooden button</name>
+		<alt>wood button</alt>
+		<craftT> | | </craftT>
+		<craftM> |P| </craftM>
+		<craftB> | | </craftB>
+		<key>P=wooden planks</key>
+		<smelt>N/A</smelt>
+		<tool>Sword (double damage)</tool>
+		<durability>2.5</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can be activated by arrows</other>
+	</item>
+	<item>
+		<id>144</id>
+		<name>head</name>
+		<alt>mob head, skull, mob skull</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>5</durability>
+		<obtainability> </obtainability>
+		<location>Can be found in Swamp Huts</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Unobtainable, block item of Heads</other>
+	</item>
+	<item>
+		<id>145</id>
+		<name>anvil</name>
+		<alt> </alt>
+		<craftT>B|B|B</craftT>
+		<craftM> |I| </craftM>
+		<craftB>I|I|I</craftB>
+		<key>B=block of iron | I=iron ingot</key>
+		<smelt>N/A</smelt>
+		<tool>Wooden Pickaxe</tool>
+		<durability>6,000</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64(same damage state only)</stack>
+		<physics>Yes</physics>
+		<other>Used for item repair interface</other>
+	</item>
+	<!--ITEMS-->
+	
+	<item>
+		<id>256</id>
+		<name>iron shovel</name>
+		<alt> </alt>
+		<craftT> |I| </craftT>
+		<craftM> |S| </craftM>
+		<craftB> |S| </craftB>
+		<key>I=iron ingot | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>251 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>257</id>
+		<name>iron pickaxe</name>
+		<alt>iron pick</alt>
+		<craftT>I|I|I</craftT>
+		<craftM> |S| </craftM>
+		<craftB> |S| </craftB>
+		<key>I=iron ingot | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>251 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>258</id>
+		<name>iron axe</name>
+		<alt> </alt>
+		<craftT> |I|I</craftT>
+		<craftM> |S|I</craftM>
+		<craftB> |S| </craftB>
+		<key>I=iron ingot | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>251 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>259</id>
+		<name>flint and steel</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM>I| | </craftM>
+		<craftB> |F| </craftB>
+		<key>F=flint | I=iron ingot</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>65 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Used to start fires (can create a nether portal)</other>
+	</item>
+	<item>
+		<id>260</id>
+		<name>red apple</name>
+		<alt>apple</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>4 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Oak leaves have a 0.5% chance of dropping an apple</other>
+	</item>
+	<item>
+		<id>261</id>
+		<name>bow</name>
+		<alt> </alt>
+		<craftT> |S|T </craftT>
+		<craftM>S| |T</craftM>
+		<craftB> |S|T</craftB>
+		<key>S=stick | T=string</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>385 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Longer charge is more powerful/ shoots farther</other>
+	</item>
+	<item>
+		<id>262</id>
+		<name>arrow</name>
+		<alt> </alt>
+		<craftT> |L| </craftT>
+		<craftM> |S| </craftM>
+		<craftB> |F| </craftB>
+		<key>F=feather | L=flint | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>bow</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>In Jungle Temples</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Shot by bow</other>
+	</item>
+	<item>
+		<id>263</id>
+		<name>charcoal</name>
+		<alt>coal, wood coal</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can be used as fuel (80 seconds)</other>
+	</item>
+	<item>
+		<id>264</id>
+		<name>diamond</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>265</id>
+		<name>iron ingot</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>266</id>
+		<name>gold ingot</name>
+		<alt>golden ingot</alt>
+		<craftT>N|N|N</craftT>
+		<craftM>N|N|N</craftM>
+		<craftB>N|N|N</craftB>
+		<key>N=gold nugget</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>267</id>
+		<name>iron sword</name>
+		<alt> </alt>
+		<craftT> |I| </craftT>
+		<craftM> |I| </craftM>
+		<craftB> |S| </craftB>
+		<key>I=iron ingot | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>251 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>268</id>
+		<name>wooden sword</name>
+		<alt>wood sword</alt>
+		<craftT> |P| </craftT>
+		<craftM> |P| </craftM>
+		<craftB> |S| </craftB>
+		<key>P=planks | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>60 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Can be used as fuel (10 seconds)</other>
+	</item>
+	<item>
+		<id>269</id>
+		<name>wooden shovel</name>
+		<alt>wood shovel</alt>
+		<craftT> |P| </craftT>
+		<craftM> |S| </craftM>
+		<craftB> |S| </craftB>
+		<key>P=planks | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>60 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Can be used as fuel (10 seconds)</other>
+	</item>
+	<item>
+		<id>270</id>
+		<name>wooden pickaxe</name>
+		<alt>wooden pick, wood pickaxe, wood pick, wooden pickax, wood pickaxe</alt>
+		<craftT>P|P|P</craftT>
+		<craftM> |S| </craftM>
+		<craftB> |S| </craftB>
+		<key>P=planks | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>60 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Can be used as fuel (10 seconds)</other>
+	</item>
+	<item>
+		<id>271</id>
+		<name>wooden axe</name>
+		<alt>wood axe, wooden ax, wood ax</alt>
+		<craftT> |P|P</craftT>
+		<craftM> |S|P</craftM>
+		<craftB> |S| </craftB>
+		<key>P=planks | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>60 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Can be used as fuel (10 seconds)</other>
+	</item>
+	<item>
+		<id>272</id>
+		<name>stone sword</name>
+		<alt> </alt>
+		<craftT> |C| </craftT>
+		<craftM> |C| </craftM>
+		<craftB> |S| </craftB>
+		<key>C=cobblestone | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>132 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>273</id>
+		<name>stone shovel</name>
+		<alt> </alt>
+		<craftT> |C| </craftT>
+		<craftM> |S| </craftM>
+		<craftB> |S| </craftB>
+		<key>C=cobblestone | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>132 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>274</id>
+		<name>stone pickaxe</name>
+		<alt>stone pick, stone pickax</alt>
+		<craftT>C|C|C</craftT>
+		<craftM> |S| </craftM>
+		<craftB> |S| </craftB>
+		<key>C=cobblestone | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>132 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>275</id>
+		<name>stone axe</name>
+		<alt>stone ax</alt>
+		<craftT> |C|C</craftT>
+		<craftM> |S|C</craftM>
+		<craftB> |S| </craftB>
+		<key>C=cobblestone | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>132 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>276</id>
+		<name>diamond sword</name>
+		<alt> </alt>
+		<craftT> |D| </craftT>
+		<craftM> |D| </craftM>
+		<craftB> |S| </craftB>
+		<key>D=diamond | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>1562 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>277</id>
+		<name>diamond shovel</name>
+		<alt> </alt>
+		<craftT> |D| </craftT>
+		<craftM> |S| </craftM>
+		<craftB> |S| </craftB>
+		<key>D=diamond | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>1562 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>278</id>
+		<name>diamond pickaxe</name>
+		<alt>diamond pick</alt>
+		<craftT>D|D|D</craftT>
+		<craftM> |S| </craftM>
+		<craftB> |S| </craftB>
+		<key>D=diamond | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>279</id>
+		<name>diamond axe</name>
+		<alt>diamond ax</alt>
+		<craftT> |D|D</craftT>
+		<craftM> |S|D</craftM>
+		<craftB> |S| </craftB>
+		<key>D=diamond | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>1562 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>280</id>
+		<name>stick</name>
+		<alt>rod</alt>
+		<craftT> | | </craftT>
+		<craftM> |P| </craftM>
+		<craftB> |P| </craftB>
+		<key>P=planks</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can be used as fuel (5 seconds)</other>
+	</item>
+	<item>
+		<id>281</id>
+		<name>bowl</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM>P| |P</craftM>
+		<craftB> |P| </craftB>
+		<key>P=planks</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>16</stack>
+		<physics>No</physics>
+		<other>Used for mushroom soup</other>
+	</item>
+	<item>
+		<id>282</id>
+		<name>mushroom stew</name>
+		<alt>mushroom soup</alt>
+		<craftT> |R| </craftT>
+		<craftM> |B| </craftM>
+		<craftB> |O| </craftB>
+		<key>B=brown mushroom | O=bowl | R=red mushroom</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>8 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Returns empty bowl when eaten, can be collected from mooshroom if it is right-clicked with a bowl</other>
+	</item>
+	<item>
+		<id>283</id>
+		<name>golden sword</name>
+		<alt>gold sword</alt>
+		<craftT> |G| </craftT>
+		<craftM> |G| </craftM>
+		<craftB> |S| </craftB>
+		<key>G=gold ingot | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>33 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>284</id>
+		<name>golden shovel</name>
+		<alt>gold shovel</alt>
+		<craftT> |G| </craftT>
+		<craftM> |S| </craftM>
+		<craftB> |S| </craftB>
+		<key>G=gold ingot | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>33 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>285</id>
+		<name>golden pickaxe</name>
+		<alt>golden pick, gold pickaxe, gold pick, golden pickax, gold pickaxe</alt>
+		<craftT>G|G|G</craftT>
+		<craftM> |S| </craftM>
+		<craftB> |S| </craftB>
+		<key>G=gold ingot | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>33 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>286</id>
+		<name>golden shovel</name>
+		<alt>gold shovel</alt>
+		<craftT> |G|G</craftT>
+		<craftM> |S|G</craftM>
+		<craftB> |S| </craftB>
+		<key>G=gold ingot | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>33 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>287</id>
+		<name>string</name>
+		<alt>twine</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>288</id>
+		<name>feather</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>289</id>
+		<name>gunpowder</name>
+		<alt>sulphur</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>290</id>
+		<name>wooden hoe</name>
+		<alt>wood hoe</alt>
+		<craftT> |P|P</craftT>
+		<craftM> |S| </craftM>
+		<craftB> |S| </craftB>
+		<key>P=planks | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>60 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Can be used as fuel (10 seconds)</other>
+	</item>
+	<item>
+		<id>291</id>
+		<name>stone hoe</name>
+		<alt> </alt>
+		<craftT> |C|C</craftT>
+		<craftM> |S| </craftM>
+		<craftB> |S| </craftB>
+		<key>C=cobblestone | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>132 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>292</id>
+		<name>iron hoe</name>
+		<alt> </alt>
+		<craftT> |I|I</craftT>
+		<craftM> |S| </craftM>
+		<craftB> |S| </craftB>
+		<key>I=iron ingot | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>251 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>293</id>
+		<name>diamond hoe</name>
+		<alt> </alt>
+		<craftT> |D|D</craftT>
+		<craftM> |S| </craftM>
+		<craftB> |S| </craftB>
+		<key>D=diamond | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>1562 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>294</id>
+		<name>golden hoe</name>
+		<alt>gold hoe</alt>
+		<craftT> |G|G</craftT>
+		<craftM> |S| </craftM>
+		<craftB> |S| </craftB>
+		<key>G=gold ingot | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>33 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>295</id>
+		<name>wheat seeds</name>
+		<alt>seeds</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Only placeable on farmland, grows into wheat, grows faster if land is fertile</other>
+	</item>
+	<item>
+		<id>296</id>
+		<name>wheat</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>297</id>
+		<name>bread</name>
+		<alt>loaf</alt>
+		<craftT> | | </craftT>
+		<craftM> | | </craftM>
+		<craftB>W|W|W</craftB>
+		<key>w=wheat</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>5 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>298</id>
+		<name>leather cap</name>
+		<alt>leather helmet, leather hat</alt>
+		<craftT>L|L|L</craftT>
+		<craftM>L| |L</craftM>
+		<craftB> | | </craftB>
+		<key>L=leather</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>56</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Can be dyed by crafting the cap with dyes</other>
+	</item>
+	<item>
+		<id>299</id>
+		<name>leather tunic</name>
+		<alt>leather chestplate, leather chest</alt>
+		<craftT>L| |L</craftT>
+		<craftM>L|L|L</craftM>
+		<craftB>L|L|L</craftB>
+		<key>L=leather</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>81</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Can be dyed by crafting the tunic with dyes</other>
+	</item>
+	<item>
+		<id>300</id>
+		<name>leather pants</name>
+		<alt>leather leggings</alt>
+		<craftT>L|L|L</craftT>
+		<craftM>L| |L</craftM>
+		<craftB>L| |L</craftB>
+		<key>L=leather</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>76</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Can be dyed by crafting the pants with dyes</other>
+	</item>
+	<item>
+		<id>301</id>
+		<name>leather boots</name>
+		<alt>leather shoes</alt>
+		<craftT> | | </craftT>
+		<craftM>L| |L</craftM>
+		<craftB>L| |L</craftB>
+		<key>L=leather</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>66</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Can be dyed by crafting the boots with dyes</other>
+	</item>
+	<item>
+		<id>302</id>
+		<name>chain mail helmet</name>
+		<alt>chain mail hat, chain hat, chain helmet</alt>
+		<craftT>F|F|F</craftT>
+		<craftM>F| |F</craftM>
+		<craftB> | | </craftB>
+		<key>F=fire</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>166</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>303</id>
+		<name>chain mail chestplate</name>
+		<alt>chain mail vest</alt>
+		<craftT>F| |F</craftT>
+		<craftM>F|F|F</craftM>
+		<craftB>F|F|F</craftB>
+		<key>F=fire</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>241</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>304</id>
+		<name>chain mail leggings</name>
+		<alt>chain mail pants</alt>
+		<craftT>F|F|F</craftT>
+		<craftM>F| |F</craftM>
+		<craftB>F| |F</craftB>
+		<key>f=fire</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>226</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>305</id>
+		<name>chain mail boots</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM>F| |F</craftM>
+		<craftB>F| |F</craftB>
+		<key>f=fire</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>196</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>306</id>
+		<name>iron helmet</name>
+		<alt>iron hat</alt>
+		<craftT>I|I|I</craftT>
+		<craftM>I| |I</craftM>
+		<craftB> | | </craftB>
+		<key>I=iron ingot</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>166</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>307</id>
+		<name>iron chestplate</name>
+		<alt>iron vest</alt>
+		<craftT>I| |I</craftT>
+		<craftM>I|I|I</craftM>
+		<craftB>I|I|I</craftB>
+		<key>I=iron ingot</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>241</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>308</id>
+		<name>iron leggings</name>
+		<alt>iron pants</alt>
+		<craftT>I|I|I</craftT>
+		<craftM>I| |I</craftM>
+		<craftB>I| |I</craftB>
+		<key>i=iron ingot</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>226</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>309</id>
+		<name>iron boots</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM>I| |I</craftM>
+		<craftB>I| |I</craftB>
+		<key>I=iron ingot</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>196</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>310</id>
+		<name>diamond helmet</name>
+		<alt>diamond hat</alt>
+		<craftT>D|D|D</craftT>
+		<craftM>D| |D</craftM>
+		<craftB> | | </craftB>
+		<key>d=diamond</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>364</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>311</id>
+		<name>diamond chestplate</name>
+		<alt>diamond vest</alt>
+		<craftT>D| |D</craftT>
+		<craftM>D|D|D</craftM>
+		<craftB>D|D|D</craftB>
+		<key>D=diamond</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>529</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>312</id>
+		<name>diamond leggings</name>
+		<alt>diamond pants</alt>
+		<craftT>D|D|D</craftT>
+		<craftM>D| |D</craftM>
+		<craftB>D| |D</craftB>
+		<key>D=diamond</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>496</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>313</id>
+		<name>diamond boots</name>
+		<alt>diamond shoes</alt>
+		<craftT> | | </craftT>
+		<craftM>D| |D</craftM>
+		<craftB>D| |D</craftB>
+		<key>D=diamond</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>430</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>314</id>
+		<name>golden helmet</name>
+		<alt>gold helmet, golden hat, gold hat</alt>
+		<craftT>G|G|G</craftT>
+		<craftM>G| |G</craftM>
+		<craftB> | | </craftB>
+		<key>G=gold ingot</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>78</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>315</id>
+		<name>golden chestplate</name>
+		<alt>gold chestplate</alt>
+		<craftT>G| |G</craftT>
+		<craftM>G|G|G</craftM>
+		<craftB>G|G|G</craftB>
+		<key>G=gold ingot</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>113</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>316</id>
+		<name>golden leggings</name>
+		<alt>gold pants, golden pants, gold leggings</alt>
+		<craftT>G|G|G</craftT>
+		<craftM>G| |G</craftM>
+		<craftB>G| |G</craftB>
+		<key>G=gold ingot</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>106</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>317</id>
+		<name>golden boots</name>
+		<alt>gold boots, gold shoes</alt>
+		<craftT> | | </craftT>
+		<craftM>G| |G</craftM>
+		<craftB>G| |G</craftB>
+		<key>G=gold ingot</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>92</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>318</id>
+		<name>flint</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>319</id>
+		<name>raw porkchop</name>
+		<alt>raw pork chop</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>3 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>320</id>
+		<name>cooked porkchop</name>
+		<alt>cooked pork chop</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>8 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>321</id>
+		<name>painting</name>
+		<alt>picture</alt>
+		<craftT>S|S|S</craftT>
+		<craftM>S|W|S</craftM>
+		<craftB>S|S|S</craftB>
+		<key>S=stick | W=wool</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Paintings can be used to hide secret rooms</other>
+	</item>
+	<item>
+		<id>322:0</id>
+		<name>golden apple</name>
+		<alt>gold apple</alt>
+		<craftT>G|G|G</craftT>
+		<craftM>G|R|G</craftM>
+		<craftB>G|G|G</craftB>
+		<key>G=gold nugget | R=red apple</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>4 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Gives Regeneration (0:05)</other>
+	</item>
+	<item>
+		<id>322:1</id>
+		<name>enchanted golden apple</name>
+		<alt>magic golden apple, enchanted apple, magic apple, enchanted gold apple</alt>
+		<craftT>G|G|G</craftT>
+		<craftM>G|R|G</craftM>
+		<craftB>G|G|G</craftB>
+		<key>G=gold block | R=red apple</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>4 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Gives Regeneration IV (:30), Resistance (5:00), and Fire Resistance (5:00)</other>
+	</item>
+	<item>
+		<id>323</id>
+		<name>sign</name>
+		<alt> </alt>
+		<craftT>P|P|P</craftT>
+		<craftM>P|P|P</craftM>
+		<craftB> |S| </craftB>
+		<key>P=planks | S=stick</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>324</id>
+		<name>wooden door</name>
+		<alt>wood door</alt>
+		<craftT>P|P| </craftT>
+		<craftM>P|P| </craftM>
+		<craftB>P|P| </craftB>
+		<key>P=planks</key>
+		<smelt>N/A</smelt>
+		<tool>Axe</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Can be dug by zombies</other>
+	</item>
+	<item>
+		<id>325</id>
+		<name>bucket</name>
+		<alt>empty bucket</alt>
+		<craftT> | | </craftT>
+		<craftM>I| |I</craftM>
+		<craftB> |I| </craftB>
+		<key>I=iron ingot</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>16</stack>
+		<physics>No</physics>
+		<other>Can pick up water/ lava/ milk</other>
+	</item>
+	<item>
+		<id>326</id>
+		<name>water bucket</name>
+		<alt>bucket of water</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>327</id>
+		<name>lava bucket</name>
+		<alt>bucket of lava</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Can be used as fuel (1,000 seconds)</other>
+	</item>
+	<item>
+		<id>328</id>
+		<name>minecart</name>
+		<alt>cart</alt>
+		<craftT> | | </craftT>
+		<craftM>I| |I</craftM>
+		<craftB>I|I|I</craftB>
+		<key>I=iron ingot</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>6 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Drops 1 minecart when broken</other>
+	</item>
+	<item>
+		<id>329</id>
+		<name>saddle</name>
+		<alt>leather saddle</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>330</id>
+		<name>iron door</name>
+		<alt> </alt>
+		<craftT>I|I| </craftT>
+		<craftM>I|I| </craftM>
+		<craftB>I|I| </craftB>
+		<key>I=iron ingot</key>
+		<smelt>N/A</smelt>
+		<tool>Pickaxe</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>331</id>
+		<name>redstone dust</name>
+		<alt>redstone</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Redstone dust is placeable, conducts electrical-like power, and is an ingredient in crafting and brewing</other>
+	</item>
+	<item>
+		<id>332</id>
+		<name>snowball</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM> |S| </craftM>
+		<craftB> | | </craftB>
+		<key>S=snow (block)</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>16</stack>
+		<physics>No</physics>
+		<other>Snowballs are throwable, but do no damage to mobs, except Blaze (1.5 hearts) and Ender dragons (0.5 hearts)</other>
+	</item>
+	<item>
+		<id>333</id>
+		<name>boat</name>
+		<alt>wooden boat</alt>
+		<craftT> | | </craftT>
+		<craftM>P| |P</craftM>
+		<craftB>P|P|P</craftB>
+		<key>P=planks</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>6 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Boats allow fast and easy movement across any large area of water</other>
+	</item>
+	<item>
+		<id>334</id>
+		<name>leather</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Dropped by cows, Leather can be crafted into armor, and is an ingredient in crafting Books and Item Frames</other>
+	</item>
+	<item>
+		<id>335</id>
+		<name>milk</name>
+		<alt>milk bucket</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Milk does not restore health or hunger points, but does cancel all potion effects</other>
+	</item>
+	<item>
+		<id>336</id>
+		<name>clay brick</name>
+		<alt>brick</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Bricks can be crafted into Brick blocks and Flower Pots</other>
+	</item>
+	<item>
+		<id>337</id>
+		<name>clay balls</name>
+		<alt>clay</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Clay can be crafted to form Clay blocks, or baked in a furnace to create Bricks</other>
+	</item>
+	<item>
+		<id>338</id>
+		<name>sugar cane</name>
+		<alt>cane, reeds, papyrus, bamboo</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>0</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>The sole ingredient in Sugar and Paper</other>
+	</item>
+	<item>
+		<id>339</id>
+		<name>paper</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM> | | </craftM>
+		<craftB>C|C|C</craftB>
+		<key>C=sugar cane</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Made of Sugar Cane, Paper can be used to make and expand maps, as well as make books</other>
+	</item>
+	<item>
+		<id>340</id>
+		<name>book</name>
+		<alt>pages</alt>
+		<craftT> | | </craftT>
+		<craftM>P|P| </craftM>
+		<craftB>L|P| </craftB>
+		<key>P=paper | L=leather</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Crafted from Paper and Leather, Books are used to create Bookshelves, Enchantment Tables, and Books and Quills</other>
+	</item>
+	<item>
+		<id>341</id>
+		<name>slimeball</name>
+		<alt>slime ball</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Dropped by slimes, Slimeballs are used to make Sticky Pistons and Magma Cream</other>
+	</item>
+	<item>
+		<id>342</id>
+		<name>minecart with chest</name>
+		<alt>chest with minecart, storage minecart</alt>
+		<craftT> | | </craftT>
+		<craftM> |C| </craftM>
+		<craftB> |M| </craftB>
+		<key>C=chest | M=minecart</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>6 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>A portable chest, movable by powered rails, minecarts with furnaces, and players pushing the cart</other>
+	</item>
+	<item>
+		<id>343</id>
+		<name>minecart with furnace</name>
+		<alt>powered minecart</alt>
+		<craftT> | | </craftT>
+		<craftM> |F| </craftM>
+		<craftB> |M| </craftB>
+		<key>F=furnace | M-minecart</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>6 health points </durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Powered by coal, Minecarts with furnaces can travel 600 meters per piece of coal, and can push other minecarts</other>
+	</item>
+	<item>
+		<id>344</id>
+		<name>egg</name>
+		<alt>chicken egg</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>16</stack>
+		<physics>No</physics>
+		<other>Laid by chickens every 5-10 minutes, eggs have a 1/8 chance of spawning 1 baby chicken, and a 1/32 chance of spawning 4 baby chickens</other>
+	</item>
+	<item>
+		<id>345</id>
+		<name>compass</name>
+		<alt> </alt>
+		<craftT> |I| </craftT>
+		<craftM>I|R|I</craftM>
+		<craftB> |I| </craftB>
+		<key>I=iron ingot | R=redstone dust</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Compasses always point to the players original spawn point</other>
+	</item>
+	<item>
+		<id>346</id>
+		<name>fishing rod</name>
+		<alt>fishing pole</alt>
+		<craftT> | |S</craftT>
+		<craftM> |S|T</craftM>
+		<craftB>S| |T</craftB>
+		<key>S=stick | T=string</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>65 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Can be used to catch fish, or crafted with a carrot to make a carrot on a stick</other>
+	</item>
+	<item>
+		<id>347</id>
+		<name>clock</name>
+		<alt>watch</alt>
+		<craftT> |G| </craftT>
+		<craftM>G|R|G</craftM>
+		<craftB> |G| </craftB>
+		<key>G=gold ingot | R=redstone dust</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Tells you the time of day, place a clock in an Item Frame for wall clock</other>
+	</item>
+	<item>
+		<id>348</id>
+		<name>glowstone dust</name>
+		<alt>glowstone powder</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>349</id>
+		<name>raw fish</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>2 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Caught by fishing</other>
+	</item>
+	<item>
+		<id>350</id>
+		<name>cooked fish</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>5 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>351:0</id>
+		<name>ink sac</name>
+		<alt>ink</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>0 (data)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>A black dye</other>
+	</item>
+	<item>
+		<id>351:1</id>
+		<name>rose red</name>
+		<alt>rose red dye</alt>
+		<craftT> | | </craftT>
+		<craftM> |R| </craftM>
+		<craftB> | | </craftB>
+		<key>R=rose</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>1 (data)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>A vivid red dye</other>
+	</item>
+	<item>
+		<id>351:2</id>
+		<name>cactus green</name>
+		<alt>cactus green dye</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>2 (data)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>A darker green dye</other>
+	</item>
+	<item>
+		<id>351:3</id>
+		<name>cocoa beans</name>
+		<alt>brown dye</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>3 (data)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>A warm brown dye</other>
+	</item>
+	<item>
+		<id>351:4</id>
+		<name>lapis lazuli</name>
+		<alt>lapiz lazuli, lapiz dye</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>4 (data)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>A dark blue dye</other>
+	</item>
+	<item>
+		<id>351:5</id>
+		<name>purple dye</name>
+		<alt>violet dye</alt>
+		<craftT> | | </craftT>
+		<craftM>R| |L</craftM>
+		<craftB> | | </craftB>
+		<key>L=lapis lazuli | R=rose red</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>5 (data)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>A regal purple dye</other>
+	</item>
+	<item>
+		<id>351:6</id>
+		<name>cyan dye</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM>G| |L</craftM>
+		<craftB> | | </craftB>
+		<key>G=cactus green | L=lapis lazuli</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>6 (data)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>A muted blue-green dye</other>
+	</item>
+	<item>
+		<id>351:7</id>
+		<name>light gray dye</name>
+		<alt>light grey dye</alt>
+		<craftT> | |   *   | | </craftT>
+		<craftM>G| |B  *  I|B|B</craftM>
+		<craftB> | |   *   | | </craftB>
+		<key>B=bone meal | G=gray dye | I=ink sac</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>7 (data)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>A light gray dye</other>
+	</item>
+	<item>
+		<id>351:8</id>
+		<name>gray dye</name>
+		<alt>grey dye</alt>
+		<craftT> | | </craftT>
+		<craftM>I| |B</craftM>
+		<craftB> | | </craftB>
+		<key>B=bone meal | I=ink sac</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>8 (data)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>A dark gray dye</other>
+	</item>
+	<item>
+		<id>351:9</id>
+		<name>pink dye</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM>R| |B</craftM>
+		<craftB> | | </craftB>
+		<key>B=bone meal | R=rose red</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>9 (data)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>A light pink dye</other>
+	</item>
+	<item>
+		<id>351:10</id>
+		<name>lime dye</name>
+		<alt>lime green dye</alt>
+		<craftT> | | </craftT>
+		<craftM>G| |B</craftM>
+		<craftB> | | </craftB>
+		<key>B=bone meal | G=cactus green</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>10 (data)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>A bright green dye</other>
+	</item>
+	<item>
+		<id>351:11</id>
+		<name>dandelion yellow</name>
+		<alt>dandelion yellow dye</alt>
+		<craftT> | | </craftT>
+		<craftM> |D| </craftM>
+		<craftB> | | </craftB>
+		<key>D=dandelion</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>11 (data)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>A bright yellow dye</other>
+	</item>
+	<item>
+		<id>351:12</id>
+		<name>light blue dye</name>
+		<alt>lite blue dye</alt>
+		<craftT> | | </craftT>
+		<craftM>L| |B</craftM>
+		<craftB> | | </craftB>
+		<key>B=bone meal | L=lapis lazuli</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>12 (data)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>A sky blue dye</other>
+	</item>
+	<item>
+		<id>351:13</id>
+		<name>magenta dye</name>
+		<alt> </alt>
+		<craftT> | |   *   | |   *   | | </craftT>
+		<craftM>U| |P  *  L|B|   *  P|R|L</craftM>
+		<craftB> | |   *  R|R|   *   | | </craftB>
+		<key>B=bone meal | L=lapis lazuli | P=pink dye | R=rose red | U=purple dye</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>13 (data)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>A purplish pink dye</other>
+	</item>
+	<item>
+		<id>351:14</id>
+		<name>orange dye</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM>R| |Y</craftM>
+		<craftB> | | </craftB>
+		<key>R=rose red | Y=dandelion yellow</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>14 (data)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>A vivid orange dye</other>
+	</item>
+	<item>
+		<id>351:15</id>
+		<name>bone meal</name>
+		<alt>bonemeal</alt>
+		<craftT> | | </craftT>
+		<craftM> |B| </craftM>
+		<craftB> | | </craftB>
+		<key>B=bone</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>15 (data)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>A bright white dye</other>
+	</item>
+	<item>
+		<id>352</id>
+		<name>bone</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Skeletons and Wither Skeletons drop 0-2 bones on death</other>
+	</item>
+	<item>
+		<id>353</id>
+		<name>sugar</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM> |C| </craftM>
+		<craftB> | | </craftB>
+		<key>C=sugar cane</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Sugar, derived from Sugar Cane, is an important ingredient in Cake, Pumpkin Pie, and Fermented Spider Eyes</other>
+	</item>
+	<item>
+		<id>354</id>
+		<name>cake</name>
+		<alt> </alt>
+		<craftT>M|M|M</craftT>
+		<craftM>S|E|S</craftM>
+		<craftB>W|W|W</craftB>
+		<key>E=egg | M=milk | S=sugar | W=wheat</key>
+		<smelt>N/A</smelt>
+		<tool>sword</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Cake is a placable food item, usable six times, that restores 2 hunger points per use</other>
+	</item>
+	<item>
+		<id>355</id>
+		<name>bed</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM>W|W|W</craftM>
+		<craftB>P|P|P</craftB>
+		<key>P=planks | W=wool</key>
+		<smelt>N/A</smelt>
+		<tool>sword</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Sets the time to day, and sets your spawn point when used at night.</other>
+	</item>
+	<item>
+		<id>356</id>
+		<name>redstone repeater</name>
+		<alt>repeater</alt>
+		<craftT> | | </craftT>
+		<craftM>T|R|T</craftM>
+		<craftB>S|S|S</craftB>
+		<key>R=redstone dust | S=stone | T=redstone torch</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Extends redstone signals, and can prevent powering in reverse</other>
+	</item>
+	<item>
+		<id>357</id>
+		<name>cookie</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM> | | </craftM>
+		<craftB>W|C|W</craftB>
+		<key>C=cocoa beans | W=wheat</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>2 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>358</id>
+		<name>map</name>
+		<alt> </alt>
+		<craftT>P|P|P</craftT>
+		<craftM>P|C|P</craftM>
+		<craftB>P|P|P</craftB>
+		<key>C=compass | P=paper</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>359</id>
+		<name>shears</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM> |I| </craftM>
+		<craftB>I| | </craftB>
+		<key>I=iron ingot</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>238 uses</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Shears wool from sheep, shears red mushrooms from mooshrooms, harvests placeable leaf blocks, grass, ferns, dead bushes, vines, and cobwebs</other>
+	</item>
+	<item>
+		<id>360</id>
+		<name>melon slice</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>2 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>16</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>361</id>
+		<name>pumpkin seeds</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM> |P| </craftM>
+		<craftB> | | </craftB>
+		<key>P=pumpkin</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Only placeable on farmland, grows a central stem which grows fully before spawning a pumpkin next to it, grows faster if land is fertile</other>
+	</item>
+	<item>
+		<id>362</id>
+		<name>melon seeds</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM> |M| </craftM>
+		<craftB> | | </craftB>
+		<key>M=melon slice</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Only placeable on farmland, grows a central stem which grows fully before spawning a melon next to it, grows faster if land is fertile</other>
+	</item>
+	<item>
+		<id>363</id>
+		<name>raw beef</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>1.5 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>364</id>
+		<name>steak</name>
+		<alt>cooked beef</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>8 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>365</id>
+		<name>raw chicken</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>2 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Has a 30% chance of causing food poisoning</other>
+	</item>
+	<item>
+		<id>366</id>
+		<name>cooked chicken</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>6 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>367</id>
+		<name>rotten flesh</name>
+		<alt>zombie flesh, zombie meat, rotten meat</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>4 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Has an 80% chance of causing food poisoning</other>
+	</item>
+	<item>
+		<id>368</id>
+		<name>ender pearl</name>
+		<alt>ender perl</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>16</stack>
+		<physics>No</physics>
+		<other>When thrown, the user will teleport to its impact location, dealing 2.5 hearts of damage</other>
+	</item>
+	<item>
+		<id>369</id>
+		<name>blaze rod</name>
+		<alt>fire rod</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can be used as fuel (120 seconds)</other>
+	</item>
+	<item>
+		<id>370</id>
+		<name>ghast tear</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Dropped by Ghasts, used for brewing potions</other>
+	</item>
+	<item>
+		<id>371</id>
+		<name>gold nugget</name>
+		<alt>golden nugget</alt>
+		<craftT> | | </craftT>
+		<craftM> |G| </craftM>
+		<craftB> | | </craftB>
+		<key>G=gold ingot</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Dropped by zombie pigmen, used in glistering melons and golden apples</other>
+	</item>
+	<item>
+		<id>372</id>
+		<name>nether wart seeds</name>
+		<alt>netherwart seeds, netherwort seeds, nether wort seeds, nether stalk seeds</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>Nether fortress</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Grows when planted on soul sand</other>
+	</item>
+	<item>
+		<id>373</id>
+		<name>potions</name>
+		<alt>potion</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>374</id>
+		<name>glass bottle</name>
+		<alt>bottle</alt>
+		<craftT> | | </craftT>
+		<craftM>G| |G</craftM>
+		<craftB> |G| </craftB>
+		<key>G=glass</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>375</id>
+		<name>spider eye</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>2 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Poisons player for 2 hearts of damage</other>
+	</item>
+	<item>
+		<id>376</id>
+		<name>fermented spider eye</name>
+		<alt> </alt>
+		<craftT> |B| </craftT>
+		<craftM> |S| </craftM>
+		<craftB> |E| </craftB>
+		<key>B=brown mushroom | E=spider eye | S=sugar</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>377</id>
+		<name>blaze powder</name>
+		<alt> </alt>
+		<craftT> | | </craftT>
+		<craftM> |B| </craftM>
+		<craftB> | | </craftB>
+		<key>B=blaze rod</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>378</id>
+		<name>magma cream</name>
+		<alt>lava cream</alt>
+		<craftT> | | </craftT>
+		<craftM> |S| </craftM>
+		<craftB> |B| </craftB>
+		<key>B=blaze powder | S=slimeball</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>379</id>
+		<name>brewing stand</name>
+		<alt>potion stand</alt>
+		<craftT> | | </craftT>
+		<craftM> |B| </craftM>
+		<craftB>C|C|C</craftB>
+		<key>B=blaze rod | C=cobblestone</key>
+		<smelt>N/A</smelt>
+		<tool>Pickaxe</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>380</id>
+		<name>cauldron</name>
+		<alt> </alt>
+		<craftT>I| |I</craftT>
+		<craftM>I| |I</craftM>
+		<craftB>I|I|I</craftB>
+		<key>I=iron ingot</key>
+		<smelt>N/A</smelt>
+		<tool>Stone Pickaxe</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>Swamp hut</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can catch rain, can clean dyed leather armor when full</other>
+	</item>
+	<item>
+		<id>381</id>
+		<name>eye of ender</name>
+		<alt>ender eye</alt>
+		<craftT> | | </craftT>
+		<craftM>B|E| </craftM>
+		<craftB> | | </craftB>
+		<key>B=blaze powder | E=ender pearl</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>382</id>
+		<name>glistering melon</name>
+		<alt>glistening melon</alt>
+		<craftT> | | </craftT>
+		<craftM>M|G| </craftM>
+		<craftB> | | </craftB>
+		<key>G=gold nugget | M=melon slice</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>383</id>
+		<name>spawn egg</name>
+		<alt>mob egg</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Creative only item, used to spawn mobs, can be fired from dispenser</other>
+	</item>
+	<item>
+		<id>384</id>
+		<name>bottle o' enchanting</name>
+		<alt>bottle o enchanting, bottle of enchanting, bottle o' enchantment, </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Drops experience orbs when thrown</other>
+	</item>
+	<item>
+		<id>385</id>
+		<name>fire charge</name>
+		<alt>fire ball</alt>
+		<craftT> |B| </craftT>
+		<craftM> |C| </craftM>
+		<craftB> |G| </craftB>
+		<key>B=blaze powder | C=coal, charcoal | G=gunpowder</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can be used in same way as flint and steel, but with only one use</other>
+	</item>
+	<item>
+		<id>386</id>
+		<name>book and quill</name>
+		<alt>book and pen</alt>
+		<craftT> | | </craftT>
+		<craftM>F| | </craftM>
+		<craftB>I|B| </craftB>
+		<key>B=book | F=feather | I=ink sac</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Can be written in by players</other>
+	</item>
+	<item>
+		<id>387</id>
+		<name>written book</name>
+		<alt>signed book</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>A signed book, can be read, but not edited</other>
+	</item>
+	<item>
+		<id>388</id>
+		<name>emerald</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can be traded with villagers in exchange for items or enchantments</other>
+	</item>
+	<item>
+		<id>389</id>
+		<name>item frame</name>
+		<alt>frame</alt>
+		<craftT>S|S|S</craftT>
+		<craftM>S|L|S</craftM>
+		<craftB>S|S|S</craftB>
+		<key>S=stick | L=leather</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can hold any item or block for display, drops itself and block/item held when broken</other>
+	</item>
+	<item>
+		<id>390</id>
+		<name>flower pot</name>
+		<alt>pot</alt>
+		<craftT> | | </craftT>
+		<craftM>B| |B</craftM>
+		<craftB> |B| </craftB>
+		<key>B=brick</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>0</durability>
+		<obtainability> </obtainability>
+		<location>In Swamp Huts</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can display saplings, mushrooms, flowers, cacti, ferns, and dead bushes, effectively 0.375 meters tall to mobs</other>
+	</item>
+	<item>
+		<id>391</id>
+		<name>carrot</name>
+		<alt>carot, caret</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>4 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can be planted, can be crafted into golden carrot or carrot on a stick</other>
+	</item>
+	<item>
+		<id>392</id>
+		<name>potato</name>
+		<alt>tater</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>1 hunger point</durability>
+		<obtainability> </obtainability>
+		<location>villages, and rare zombie drop</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Can be planted, can be cooked in a furnace</other>
+	</item>
+	<item>
+		<id>393</id>
+		<name>baked potato</name>
+		<alt>cooked potato</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>6 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>394</id>
+		<name>poisonous potato</name>
+		<alt>poison potato</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>2 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Ironically restores more hunger points than a normal potato, 2% chance of dropping from fully grown potato plant, chance of poisoning player</other>
+	</item>
+	<item>
+		<id>395</id>
+		<name>empty map</name>
+		<alt> </alt>
+		<craftT>P|P|P</craftT>
+		<craftM>P|C|P</craftM>
+		<craftB>P|P|P</craftB>
+		<key>P=paper | C=compass</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>All maps are created empty, and are activated at first right click on map.</other>
+	</item>
+	<item>
+		<id>396</id>
+		<name>golden carrot</name>
+		<alt>gold carrot</alt>
+		<craftT>N|N|N</craftT>
+		<craftM>N|C|N</craftM>
+		<craftB>N|N|N</craftB>
+		<key>C=carrot | N=golden nugget</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>6 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Ingredient for brewing potion of night vision</other>
+	</item>
+	<item>
+		<id>397</id>
+		<name>head</name>
+		<alt>mob head, skull</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Wither skeleton heads are rare drops from wither skeletons, all other heads are creative only, can be worn by players like a helmet</other>
+	</item>
+	<item>
+		<id>398</id>
+		<name>carrot on a stick</name>
+		<alt>carrot on stick, stick carrot</alt>
+		<craftT> | | </craftT>
+		<craftM>R| | </craftM>
+		<craftB> |C| </craftB>
+		<key>C=carrot | R=fishing rod</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Allows player to direct saddled pigs while riding, all pigs will follow the player if held.</other>
+	</item>
+	<item>
+		<id>399</id>
+		<name>nether star</name>
+		<alt>star, wither star</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>Wither item drop, crafting ingredient for beacon</other>
+	</item>
+	<item>
+		<id>400</id>
+		<name>pumpkin pie</name>
+		<alt>pie</alt>
+		<craftT> | | </craftT>
+		<craftM>P|E| </craftM>
+		<craftB>S| | </craftB>
+		<key>P=pumpkin | E=egg | S=sugar</key>
+		<smelt>N/A</smelt>
+		<tool>Any</tool>
+		<durability>8 hunger points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>64</stack>
+		<physics>No</physics>
+		<other>N/A</other>
+	</item>
+	<item>
+		<id>2256</id>
+		<name>13 disc</name>
+		<alt>13 disk</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>An ambient track of cave noises, metal clinks, splashes, wind blowing, and muffled bow firings</other>
+	</item>
+	<item>
+		<id>2257</id>
+		<name>cat disc</name>
+		<alt>cat disk</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>An upbeat, synthetic melody</other>
+	</item>
+	<item>
+		<id>2258</id>
+		<name>blocks disc</name>
+		<alt>blocks disk</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>An upbeat, retro melody</other>
+	</item>
+	<item>
+		<id>2259</id>
+		<name>chirp disc</name>
+		<alt>chirp disk</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>An upbeat, catchy tune</other>
+	</item>
+	<item>
+		<id>2260</id>
+		<name>far disc</name>
+		<alt>far disk</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>A calm, relaxing, nature-like melody</other>
+	</item>
+	<item>
+		<id>2261</id>
+		<name>mall disc</name>
+		<alt>mall disk</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>A calm piece of serene music</other>
+	</item>
+	<item>
+		<id>2262</id>
+		<name>mellohi disc</name>
+		<alt>mellohi disk</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>A slow, steampunky guitar piece</other>
+	</item>
+	<item>
+		<id>2263</id>
+		<name>stal disc</name>
+		<alt>stal disk</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>A moderate jazz-like piece</other>
+	</item>
+	<item>
+		<id>2264</id>
+		<name>strad disc</name>
+		<alt>strad disk</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>A tropical-sounding synth piece</other>
+	</item>
+	<item>
+		<id>2265</id>
+		<name>ward disc</name>
+		<alt>ward disk</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>Begins with an excerpt from Chopin's Funeral March, but goes into an upbeat electronic adventure tune</other>
+	</item>
+	<item>
+		<id>2266</id>
+		<name>11 disc</name>
+		<alt>11 disk</alt>
+		<craftT> </craftT>
+		<craftM>Item not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>1</stack>
+		<physics>No</physics>
+		<other>A spooky broken disc, not available in survival. Be very afraid!</other>
+	</item>
+	
+	<!--MOBS-->
+	
+	<item>
+		<id>mob: 50</id>
+		<name>creeper</name>
+		<alt>mob: creeper, creep</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>20 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Explode if close enough to player, drop gunpowder, can drop Music Disks if killed by skeleton</other>
+	</item>
+	<item>
+		<id>mob: 51</id>
+		<name>skeleton</name>
+		<alt>mob: skeleton, skelly</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>20 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Shoot arrows at player, drop arrows/ bones/ occasionally bows</other>
+	</item>
+	<item>
+		<id>mob: 52</id>
+		<name>spider</name>
+		<alt>mob: spider</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>16 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Jump at player, can catch up to player at walking speed, drop string/ spider eyes</other>
+	</item>
+	<item>
+		<id>mob: 53</id>
+		<name>giant</name>
+		<alt>mob: giant</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>100 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Unused, enormous mob.</other>
+	</item>
+	<item>
+		<id>mob: 54</id>
+		<name>mob: zombie</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>20 health points, 2 armor points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Follow player and attack by colliding with player, drop rotten flesh/ occasionally iron or iron tools</other>
+	</item>
+	<item>
+		<id>mob: 55</id>
+		<name>mob: slime</name>
+		<alt> </alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>16 hp (big), 4 hp (small), 1 hp (tiny)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Jump at player to attack, split into smaller versions on death, drop slimeballs</other>
+	</item>
+	<item>
+		<id>mob: 56</id>
+		<name>mob: ghast</name>
+		<alt>ghost, ghast</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>10 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Fly, shoot exploding fireballs at player, drop gunpowder/ ghast tears</other>
+	</item>
+	<item>
+		<id>mob: 57</id>
+		<name>zombie pigman</name>
+		<alt>mob: zombie pigman, pig zombie</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>20 health points, 2 armor points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Run at player, if one is attacked a group will attack back, drop rotten flesh, gold nuggets/ occasionally golden tools</other>
+	</item>
+	<item>
+		<id>mob: 58</id>
+		<name>enderman</name>
+		<alt>mob: enderman, slenderman</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>40 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Can teleport, get injured by water, can pick up certain blocks (dirt, grass, stone, sand), drop ender pearls</other>
+	</item>
+	<item>
+		<id>mob: 59</id>
+		<name>cave spider</name>
+		<alt>mob: cave spider</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>12 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Jump at player, attacks deal poison damage to player, drop string/ spider eyes</other>
+	</item>
+	<item>
+		<id>mob: 60</id>
+		<name>silverfish</name>
+		<alt>mob: silverfish</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>8 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Push player, can call other silverfish out of nearby blocks, do not drop anything</other>
+	</item>
+	<item>
+		<id>mob: 61</id>
+		<name>blaze</name>
+		<alt>mob: blaze</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>20 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Fly, shoot 3 fireballs in rapid succession, contact also hurts, drop blaze rods</other>
+	</item>
+	<item>
+		<id>mob: 62</id>
+		<name>magma cube</name>
+		<alt>mob: magma cube</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>16hp/12ap(b), 4hp/6ap(s), 1hp/3ap(t)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Jump high, contact damages player, drop magma cream</other>
+	</item>
+	<item>
+		<id>mob: 63</id>
+		<name>ender dragon</name>
+		<alt>mob: ender dragon, dragon</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>200 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Flies, can destroy all blocks except end stone/ bedrock/ obsidian (passes through these), drops lots of experience, required to kill to win game, spawns ender portal and dragon egg on death (leads to credits upon entering ender portal)</other>
+	</item>
+	<item>
+		<id>mob: 64</id>
+		<name>wither</name>
+		<alt>mob: wither, wither boss</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>300 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Fly, must be assembled, drop Nether stars</other>
+	</item>
+	<item>
+		<id>mob: 65</id>
+		<name>bat</name>
+		<alt>mob: bat</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>6 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Fly, spawn in any large enclosed area at light level 10 or less, drop nothing</other>
+	</item>
+	<item>
+		<id>mob: 66</id>
+		<name>witch</name>
+		<alt>mob: witch</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>26 health points (regenerates)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Spawn in swamps, attack with potions, heal themselves with potions</other>
+	</item>
+	<item>
+		<id>mob: 90</id>
+		<name>pig</name>
+		<alt>mob: pig, swine</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>10 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Drop raw porkchops, ridable</other>
+	</item>
+	<item>
+		<id>mob: 91</id>
+		<name>sheep</name>
+		<alt>mob: sheep</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>8 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Drop wool on death, shearable</other>
+	</item>
+	<item>
+		<id>mob: 92</id>
+		<name>cow</name>
+		<alt>mob: cow</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>10 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Drop leather/ raw beef</other>
+	</item>
+	<item>
+		<id>mob: 93</id>
+		<name>chicken</name>
+		<alt>mob: chicken</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>4 hit points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Drop feather/ raw chicken</other>
+	</item>
+	<item>
+		<id>mob: 94</id>
+		<name>squid</name>
+		<alt>mob: squid</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>10 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Drop ink sac</other>
+	</item>
+	<item>
+		<id>mob: 95</id>
+		<name>wolf</name>
+		<alt>mob: wolf</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>8 health (wild), 20 health (tamed)</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Drop nothing, can be tamed into dog with bones</other>
+	</item>
+	<item>
+		<id>mob: 96</id>
+		<name>mooshroom</name>
+		<alt>mob: mooshroom</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>10 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Drop red mushroom (if sheared)/ leather/ raw beef</other>
+	</item>
+	<item>
+		<id>mob: 97</id>
+		<name>snow golem</name>
+		<alt>mob: snow golem</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>6 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Drop snowballs/ attack other mobs automatically, leave trails of snow in their path</other>
+	</item>
+	<item>
+		<id>mob: 98</id>
+		<name>ocelot</name>
+		<alt>mob: ocelot</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>10 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Drop nothing, can be tamed into cat with fish</other>
+	</item>
+	<item>
+		<id>mob: 99</id>
+		<name>iron golem</name>
+		<alt>mob: iron golem</alt>
+		<craftT>100 health points</craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability> </durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Drop iron/ roses, will attack anything attacking nearby villagers</other>
+	</item>
+	<item>
+		<id>mob: 120:0</id>
+		<name>farmer</name>
+		<alt>mob: farmer</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>20 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>NPC villager, can trade with player</other>
+	</item>
+	<item>
+		<id>mob: 120:1</id>
+		<name>librarian</name>
+		<alt>mob: librarian</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>20 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>NPC villager, can trade with player</other>
+	</item>
+	<item>
+		<id>mob: 120:2</id>
+		<name>priest</name>
+		<alt>mob: priest</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>20 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>NPC villager, can trade with player</other>
+	</item>
+	<item>
+		<id>mob: 120:3</id>
+		<name>blacksmith</name>
+		<alt>mob: blacksmith</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>20 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>NPC villager, can trade with player</other>
+	</item>
+	<item>
+		<id>mob: 120:4</id>
+		<name>butcher</name>
+		<alt>mob: butcher</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>Sword or Bow</tool>
+		<durability>20 health points</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>NPC villager, can trade with player</other>
+	</item>
+	<item>
+		<id>mob: 200</id>
+		<name>ender crystal</name>
+		<alt>mob: ender crystal</alt>
+		<craftT> </craftT>
+		<craftM>Mob not craftable</craftM>
+		<craftB> </craftB>
+		<key>N/A</key>
+		<smelt>N/A</smelt>
+		<tool>N/A</tool>
+		<durability>N/A</durability>
+		<obtainability> </obtainability>
+		<location>N/A</location>
+		<stack>N/A</stack>
+		<physics>No</physics>
+		<other>Heal Ender Dragon, explode on destruction</other>
+	</item>
+</assembly>
